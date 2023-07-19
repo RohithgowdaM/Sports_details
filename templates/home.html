@@ -16,15 +16,16 @@
     
 <div class="container">
     <div class="flex-box">
-        <div class="form">
-            <form>
+        <div class="form" >
+            <form method="post" action="{% url 'login' %}">
+                {% csrf_token %}
                 <div class="mb-3">
-                  <label for="Name" class="form-label">Name</label>
-                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp">
+                  <label for="Name" class="form-label"><b>Name</b></label>
+                  <input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" name="Name">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <label for="exampleInputPassword1" class="form-label"><b>Password</b></label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" name="password">
                 </div>
                 <button id="b1" type="submit" class="btn btn-primary">Submit</button>
               </form>

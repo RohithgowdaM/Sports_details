@@ -45,3 +45,85 @@ body {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
+
+
+.student-box{
+  background-color: #111;
+  word-wrap: break-word;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px;
+  padding: 5px 5px 0.1px 5px ;
+}
+
+.detail{
+  background-color: #818181;
+  display: grid;
+  grid-auto-columns: 35px 175px 70px 175px 70px auto 170px 200px 100px;
+  grid-auto-flow: column;
+  column-gap: 5px;
+}
+
+.edit{
+  background-color: red;
+}
+
+.sl-no{
+  padding:5px 2.5px 5px 2.5px;
+}
+
+.Stud_det1{
+  padding:5px 2.5px 5px 2.5px;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+
+.DOB{
+  padding:5px 2.5px 5px 2.5px;
+}
+
+.Stud_det2{
+  padding:5px 2.5px 5px 2.5px;
+  display: grid;
+  grid-template-rows: auto auto auto auto ;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.Course{
+  padding:5px 2.5px 5px 2.5px;
+}
+
+.Stud_det3{
+  padding:5px 2.5px 5px 2.5px;
+  display: grid;
+  grid-template-rows: auto auto auto ;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.Previous_parti{
+  padding:5px 2.5px 5px 2.5px;
+  display: grid;
+  grid-template-rows: auto auto ;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.photo{
+  padding:5px 2.5px 5px 2.5px;
+  display: grid;
+  grid-template-rows: auto auto ;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.signature{
+  padding:5px 2.5px 5px 2.5px;
+  display: grid;
+  grid-template-rows: auto auto ;
+  grid-gap: 10px;
+  padding: 5px;
+}
